@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/sh
 
 ls src/core/*.cpp
 ls src/c_api/*.cpp

@@ -3,7 +3,7 @@ project('soloud', 'c', 'cpp')
 r = run_command('src.sh')
 soloud_src = r.stdout().strip().split('\n')
 soloud_inc = include_directories('include')
-add_project_arguments('-DWITH_MINIAUDIO', language:'cpp')
+add_project_arguments('-DWITH_NULL', language:'cpp')
 
 soloud_lib = library('soloud',
   sources: soloud_src,
